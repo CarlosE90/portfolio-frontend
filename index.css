@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 { 
+    font-size: 3em;
+color: rgb(212, 212, 212)
+}
+
+ h2{
+    color:rgb(0, 93, 199)
+ }
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: rgb(26, 26, 26);
+    color:rgb(212, 212, 212);
+}
+
+input[type="button"]{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.5);
+    color:rgb(212, 212, 212);
+    background-color: rgb(4, 115, 241);
+    
+}
+
+input[type="button"]:hover{
+    background-color: rgb(13, 68, 131);
+    color:rgb(24, 25, 26);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+img[class="image fit"]{
+    width:300px;
+    height:300px;
+    border-radius: 150px;
+}
+
+header h1{
+    margin: 0;
+    padding: 25px 30px;
+}
+
+body .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header a{
+    
+    text-decoration: none;
+    font-weight: bold;
+    color:  rgb(4, 115, 241);
+    
+    
+}
+
+header a:hover{
+   color: rgb(13, 68, 131)
+}
+
+.boton1{
+    display: flex;
+    justify-content: right;
+    padding: 80px ;
+
+}
+
+.boton2{
+    display: flex;
+    justify-content: right;
+    padding: 80px 40px;
+
+}
+
+.logo1{
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+}
+
+.TOP{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    
+}
