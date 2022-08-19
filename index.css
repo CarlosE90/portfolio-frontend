@@ -4,15 +4,15 @@
 
 h1 { 
     font-size: 3em;
-color: rgb(212, 212, 212)
+color: rgb(133, 133, 133)
 }
 
  h2{
-    color:rgb(0, 93, 199)
+    color:rgb(0, 162, 255)
  }
 
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     background-color: rgb(26, 26, 26);
     color:rgb(212, 212, 212);
@@ -39,61 +39,24 @@ input[type="button"]:hover{
     margin: auto;
 }
 
-img[class="image fit"]{
+img.image{
+    display: flex;
     width:300px;
     height:300px;
     border-radius: 150px;
 }
 
-header h1{
-    margin: 0;
-    padding: 25px 30px;
-}
-
-body .container{
+div.images{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-
-}
-
-section .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header a{
-    
-    text-decoration: none;
-    font-weight: bold;
-    color:  rgb(4, 115, 241);
-    
-    
-}
-
-header a:hover{
-   color: rgb(13, 68, 131)
-}
-
-.boton1{
-    display: flex;
-    justify-content: right;
-    padding: 80px ;
-
-}
-
-.boton2{
-    display: flex;
-    justify-content: right;
-    padding: 80px 40px;
-
 }
 
 .logo1{
     display: flex;
+    flex-direction: row;
     justify-content: left;
-    padding-left: 40px;
+    padding: 1em ;
 }
 
 .TOP{
@@ -103,6 +66,67 @@ header a:hover{
 
 .banner{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
     
+    
+}
+
+div.mail{
+    display: flex;
+    justify-content: end;
+}
+
+div.form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.acerca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.experiencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.educacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.proyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    width: 75%;
 }
