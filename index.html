@@ -5,96 +5,132 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
 
 <!--ESTO ES UN COMENTARIO-->
 
 <body>
     <header> 
-      <div class="TOP">
+      
+      <div class="header">
 
           <div class="logo1">
-            <img class="logo" src="IMAGES/APLogo.png" width="300"/>
+            <img class="logo" src="IMAGES/APLogo2.png" width="300"/>
           </div>
-
+          
+        
         <div class="form"> 
           <form>
             <label for="mail">Mail</label>
             <input type="email" id="mail" name="mail" placeholder="Mail"/>
           </form>
-
+          
           <form>
             <label for="contraseña">Contraseña</label>
             <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña"/>
+            
           </form>
-        </div>
+          <button type="submit">Ingresar</button>
       </div>
-      
-      
+       
     </header>
 
+    <div class="nav">
+      <nav>
+        <a href="#acerca">Acerca de</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#educacion">Educacion</a>
+        <a href="#skills">Skills</a>
+        <a href="#proyectos">Proyectos</a>
+      </nav>
+    </div>
+
+
+    <div class="container">
       <div class="banner">
 
-        <img src="IMAGES/Banner portfolio1.png" width="1340"/>
+        <img src="IMAGES/Banner portfolio1.png" width="840"/>
 
       </div>
+    </div>  
     <br>
 
+    <div class="container">
     <div class="images">
 
-      <img class="image" src="IMAGES/carlosg.jpg" width="300"/>
-
+      <img class="image" src="IMAGES/carlose.jpg" width="300"/>
+    </div>
     </div>
 
 
     <!--SECCIONES DEL PORTFOLIO-->
 
     <section class="name">
+      <div class="container">
 
-      <h1>Carlos Gonzalez Full Stack Developer JR</h1>
+        <h1>Carlos Gonzalez Full Stack Developer JR</h1>
 
+      </div>    
     </section>
     
     <section class="acerca">
-      <h2>Acerca de</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <div class="container">
+        <h2>Acerca de</h2>
+          <p id="acerca">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Expedita explicabo hic quis deleniti aperiam? Nam sit animi voluptates, 
             neque provident et? Eligendi minus dolorum recusandae distinctio illo nisi incidunt est?</p>
           <br>
+      </div>    
     </section>
     
     <section class="experiencia">
+      <div class="container">
         <h2>Experiencia</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          <p id="experiencia">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Nihil aspernatur rem vero? Molestias pariatur officiis tenetur sunt animi 
           possimus dignissimos. Assumenda veniam, deleniti praesentium molestias maiores modi maxime at voluptatibus?</p>
           <br>
+      </div>    
     </section>
     
     <section class="educacion">
-        <h2>Educacion</h2>
+      <div class="container">
+        <h2 id="educacion">Educacion</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             Debitis rerum, temporibus nostrum odit ullam libero, alias voluptates 
             suscipit veniam voluptas iure. Sapiente non dolorem corrupti laudantium illum accusantium aliquid numquam.</p>
           <br>
+      </div>    
     </section>
     
     <section class="skills">
-        <h2>Hard and soft skills</h2>
+      <div class="container">
+        <h2 id="skills">Hard and soft skills</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
            Est soluta maiores quis distinctio, aspernatur dolore consequatur inventore 
             ad molestiae quibusdam facere possimus, dolorem consectetur fugit libero error quisquam. Sit, perferendis.</p>
          <br>
+      </div>   
     </section>
     
     <section class="proyectos">
-        <h2>Proyectos</h2>
+      <div class="container">
+        <h2 id="proyectos">Proyectos</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Nobis, aliquid! Minus eaque quisquam reiciendis fuga, qui, sint rerum ipsa consequatur, 
           veniam expedita in corrupti tempore modi. Voluptate exercitationem nemo ipsum.</p>
           <br>
+        </div>    
     </section>
+
+   <footer>
+    <div class="container">
+      <div class="footer">
+        <p>&copy; Creado por Carlos González</p>
+      </div>
+    </div>
+   </footer>                 
   
 </body>
 
